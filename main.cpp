@@ -36,7 +36,7 @@ const bool enableValidationLayers = false;
 const bool enableValidationLayers = true;
 #endif
 
-const VkPresentModeKHR PRESENTMODE VK_PRESENT_MODE_IMMEDIATE_KHR;
+const VkPresentModeKHR PRESENTMODE = VK_PRESENT_MODE_IMMEDIATE_KHR;
 
 const uint32_t WIDTH = 800;
 const uint32_t HEIGHT = 600;
